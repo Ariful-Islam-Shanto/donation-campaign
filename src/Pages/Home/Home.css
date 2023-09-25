@@ -1,0 +1,6 @@
+.bg {
+    background-image: url('../../assets/Banner.jpg'), linear-gradient(rgb(250, 247, 247), rgb(248, 245, 245));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+}
