@@ -2,8 +2,14 @@ import React from "react";
 import "./Banner.css";
 
 const Banner = () => {
+
+  const handleDetails = () => {
+
+  }
+
   return (
-    <div className=" h-[100vh] flex items-center justify-center">
+   
+    <div onClick={handleDetails} className=" lg:h-[60vh] xl:h-[85vh] flex items-center justify-center">
       <div className="space-y-12">
         <h1 className="text-5xl text-center text-black font-bold ">
           I Grow By Helping People In Need
@@ -18,6 +24,7 @@ const Banner = () => {
         </div>
       </div>
     </div>
+  
   );
 };
 

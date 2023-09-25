@@ -11,9 +11,9 @@ const Nav = () => {
 
   return (
     <div>
-    <div className={`${isHome ? 'absolute' : ''}  navbar px-24 py-8 bg-transparent `}>
+    <div className={`${isHome ? 'absolute' : ''} navbar lg:px-6 xl:px-44 py-8 bg-transparent `}>
         <div className="flex-1">
-          <img src={Image} alt="" />
+          <img src={Image} alt="" className="w-52" />
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1 flex gap-10">
