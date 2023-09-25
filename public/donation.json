@@ -1,0 +1,126 @@
+{
+    "data": [
+      {
+        "catName": "Health",
+       "catBgColor": "#FF5733",
+    "catNameBgColor": "#FF8040",
+    "catTitleColor": "#FFA366",
+        "title": "Med Supplies",
+        "desc": "Support local clinics and healthcare providers by donating essential medical supplies. Your contribution will ensure that clinics have the necessary equipment and supplies to provide quality care to their patients. From bandages to surgical instruments, your donation will make a difference in the health and well-being of the community. With your help, we can improve healthcare access and save lives. Join us in this vital mission today!",
+        "price": 240,
+        "img": "https://i.ibb.co/JpzsYxQ/Medical-supplies.jpg"
+      },
+      {
+        "catName": "Education",
+         "catBgColor": "#33FF57",
+    "catNameBgColor": "#66FF88",
+    "catTitleColor": "#99FFB3",
+        "title": "School Supplies",
+        "desc": "Empower underprivileged students to excel in their studies by donating books and school supplies. Your contribution will provide essential tools for these students to succeed academically. From textbooks to notebooks, your donation will open doors to a brighter future for these young minds. Education is the key to breaking the cycle of poverty, and your generosity can change lives. Join us in making education accessible to all and creating a better tomorrow!",
+        "price": 250,
+        "img": "https://i.ibb.co/PrRbjT6/School-supplies.jpg"
+      },
+      {
+        "catName": "Clothing",
+      "catBgColor": "#FF33C6",
+    "catNameBgColor": "#FF66D9",
+    "catTitleColor": "#FF99E5",
+    "title": "Used Clothing Drive",
+    "description": "Our 'Used Clothing Drive' initiative is dedicated to collecting gently used clothing and distributing it to those in need. We believe that clothing is not just about covering the body; it's about providing warmth, dignity, and a sense of belonging. By recycling and redistributing clothing, we reduce waste and help people in less fortunate circumstances stay warm and comfortable during all seasons.",
+  
+        "price": 260,
+        "img": "https://i.ibb.co/CPgd8F8/Clothing.png"
+      },
+      {
+        "catName": "Food",
+  "catBgColor": "#337DFF",
+    "catNameBgColor": "#66A3FF",
+    "catTitleColor": "#99B3FF",
+        "title": "Food Drive",
+        "desc": "Contribute to a local food drive to help families in need access nutritious meals. Your donation will provide essential food items to struggling families, ensuring they have access to balanced and healthy diets. Hunger should have no place in our communities, and your generosity can make that a reality. Join us in the fight against food insecurity and make a lasting impact on the lives of those we serve!",
+        "price": 270,
+        "img": "https://i.ibb.co/xLY0MD8/Food-Drive.jpg"
+      },
+      {
+        "catName": "Clothing",
+       "catBgColor": "#FF33C6",
+    "catNameBgColor": "#FF66D9",
+    "catTitleColor": "#FF99E5",
+        "title": "Winter Coats",
+        "desc": "Ensure that children in need stay warm by donating winter coats to them. Your donation will provide cozy and protective winter coats for children, allowing them to play, learn, and thrive even in the coldest months. Every child deserves to stay warm and healthy, and your contribution can make this a reality. Join us in spreading warmth and joy to these young hearts!",
+        "price": 280,
+        "img": "https://i.ibb.co/PFGyVyn/Winter-Coats.jpg"
+      },
+      {
+        "catName": "Health",
+        "catBgColor": "#FF5733",
+    "catNameBgColor": "#FF8040",
+    "catTitleColor": "#FFA366",
+    "title": "Clean Water for Children",
+    "description": "Providing clean and safe drinking water to children is a vital aspect of promoting good health. In many underserved communities, lack of access to clean water leads to waterborne diseases and health issues among children. Our initiative focuses on installing water purification systems and wells, ensuring that every child has access to clean water. We believe that by addressing this basic need, we can make a significant impact on the health and well-being of children in these communities.",
+        "price": 270,
+        "img": "https://i.ibb.co/0B3k72J/Health.png"
+      },
+      {
+        "catName": "Food",
+      "catBgColor": "#337DFF",
+    "catNameBgColor": "#66A3FF",
+    "catTitleColor": "#99B3FF",
+        "title": "Emergency Supplies",
+        "desc": "Support disaster relief efforts by providing emergency food supplies to affected communities. Your donation will help communities in crisis by ensuring they have access to essential food items during challenging times. Disasters can strike unexpectedly, and your generosity can provide a lifeline to those in need. Join us in making a difference when it matters most!",
+        "price": 250,
+        "img": "https://i.ibb.co/DGSWWZg/Emergency-Supplies.jpg"
+      },
+      {
+        "catName": "Clothing",
+     "catBgColor": "#FF33C6",
+    "catNameBgColor": "#FF66D9",
+    "catTitleColor": "#FF99E5",
+        "title": "Children's Shoes",
+        "desc": "Donate shoes to underprivileged children to help them walk with comfort and confidence. Your contribution will provide durable and comfortable footwear to children in need, ensuring they can participate in daily activities without discomfort. Every step they take will be filled with confidence and hope, thanks to your generosity. Join us in giving the gift of comfortable shoes and brighter futures!",
+        "price": 240,
+        "img": "https://i.ibb.co/FXBw13n/Children-shoe.jpg"
+      },
+      {
+        "catName": "Education",
+          "catBgColor": "#33FF57",
+    "catNameBgColor": "#66FF88",
+    "catTitleColor": "#99FFB3",
+        "title": "Tech for Learning",
+        "desc": "Support remote learning by donating laptops and tablets to students in need. Your donation will bridge the digital divide and empower students to access quality education from anywhere. In today's digital age, access to technology is essential, and your contribution can unlock a world of opportunities for underserved students. Join us in connecting students to the digital future!",
+        "price": 250,
+        "img": "https://i.ibb.co/0rghNdb/Tech-suppliments.jpg"
+      },
+      {
+        "catName": "Education",
+         "catBgColor": "#33FF57",
+    "catNameBgColor": "#66FF88",
+    "catTitleColor": "#99FFB3",
+    "title": "Good Education",
+    "description": "Access to quality education is the cornerstone of a bright future for children and young adults. Our 'Good Education' program is committed to improving educational opportunities in underserved communities. We work to enhance school infrastructure, provide educational resources, and offer scholarships to deserving students. By investing in education, we empower individuals to break the cycle of poverty and unlock their full potential, leading to a better future for all.",
+        "price": 240,
+        "img": "https://i.ibb.co/fnrqSGY/Education.png"
+      },
+      {
+        "catName": "Health",
+       "catBgColor": "#FF5733",
+    "catNameBgColor": "#FF8040",
+    "catTitleColor": "#FFA366",
+        "title": "Rural Clinics",
+        "desc": "Donate medicine and medical equipment to rural clinics to improve healthcare access. Your contribution will enhance the quality of healthcare in underserved rural areas, ensuring that residents have access to essential medical services. From medications to diagnostic tools, your donation will save lives and improve the well-being of rural communities. Join us in making healthcare accessible to all, regardless of location!",
+        "price": 240,
+        "img": "https://i.ibb.co/30txsTH/Rural-clinics.jpg"
+      },
+      {
+        "catName": "Food",
+       "catBgColor": "#337DFF",
+    "catNameBgColor": "#66A3FF",
+    "catTitleColor": "#99B3FF",
+    "title": "Better Food for Everyone",
+    "description": "Access to nutritious and affordable food is essential for a healthy and thriving community. Our 'Better Food for Everyone' program aims to improve food security by supporting local farmers, creating community gardens, and promoting nutrition education. We believe that by enhancing access to fresh, healthy food, we can reduce food insecurity and improve the overall health and well-being of individuals and families in need.",
+        "price": 250,
+        "img": "https://i.ibb.co/r7VCLWm/Food.png"
+      }
+    ]
+  }
+  
