@@ -5,7 +5,7 @@
     "catNameBgColor": "#0052ff33",
     "catTitleColor": "#0052FF",
         "title": "Med Supplies",
-        "desc": "Support local clinics and healthcare providers by donating essential medical supplies. Your contribution will ensure that clinics have the necessary equipment and supplies to provide quality care to their patients. From bandages to surgical instruments, your donation will make a difference in the health and well-being of the community. With your help, we can improve healthcare access and save lives. Join us in this vital mission today!",
+        "description": "Support local clinics and healthcare providers by donating essential medical supplies. Your contribution will ensure that clinics have the necessary equipment and supplies to provide quality care to their patients. From bandages to surgical instruments, your donation will make a difference in the health and well-being of the community. With your help, we can improve healthcare access and save lives. Join us in this vital mission today!",
         "price": 240,
         "img": "https://i.ibb.co/JpzsYxQ/Medical-supplies.jpg"
       },
@@ -15,7 +15,7 @@
     "catNameBgColor": "#ff444a33",
     "catTitleColor": "#FF444A",
         "title": "School Supplies",
-        "desc": "Empower underprivileged students to excel in their studies by donating books and school supplies. Your contribution will provide essential tools for these students to succeed academically. From textbooks to notebooks, your donation will open doors to a brighter future for these young minds. Education is the key to breaking the cycle of poverty, and your generosity can change lives. Join us in making education accessible to all and creating a better tomorrow!",
+        "description": "Empower underprivileged students to excel in their studies by donating books and school supplies. Your contribution will provide essential tools for these students to succeed academically. From textbooks to notebooks, your donation will open doors to a brighter future for these young minds. Education is the key to breaking the cycle of poverty, and your generosity can change lives. Join us in making education accessible to all and creating a better tomorrow!",
         "price": 250,
         "img": "https://i.ibb.co/PrRbjT6/School-supplies.jpg"
       },
@@ -36,7 +36,7 @@
     "catNameBgColor": "#f8824733",
     "catTitleColor": "#F87147",
         "title": "Food Drive",
-        "desc": "Contribute to a local food drive to help families in need access nutritious meals. Your donation will provide essential food items to struggling families, ensuring they have access to balanced and healthy diets. Hunger should have no place in our communities, and your generosity can make that a reality. Join us in the fight against food insecurity and make a lasting impact on the lives of those we serve!",
+        "description": "Contribute to a local food drive to help families in need access nutritious meals. Your donation will provide essential food items to struggling families, ensuring they have access to balanced and healthy diets. Hunger should have no place in our communities, and your generosity can make that a reality. Join us in the fight against food insecurity and make a lasting impact on the lives of those we serve!",
         "price": 270,
         "img": "https://i.ibb.co/xLY0MD8/Food-Drive.jpg"
       },
@@ -46,7 +46,7 @@
     "catNameBgColor": "#79c23f33",
     "catTitleColor": "#79C23F",
         "title": "Winter Coats",
-        "desc": "Ensure that children in need stay warm by donating winter coats to them. Your donation will provide cozy and protective winter coats for children, allowing them to play, learn, and thrive even in the coldest months. Every child deserves to stay warm and healthy, and your contribution can make this a reality. Join us in spreading warmth and joy to these young hearts!",
+        "description": "Ensure that children in need stay warm by donating winter coats to them. Your donation will provide cozy and protective winter coats for children, allowing them to play, learn, and thrive even in the coldest months. Every child deserves to stay warm and healthy, and your contribution can make this a reality. Join us in spreading warmth and joy to these young hearts!",
         "price": 280,
         "img": "https://i.ibb.co/PFGyVyn/Winter-Coats.jpg"
       },
@@ -66,7 +66,7 @@
     "catNameBgColor": "#f8824733",
     "catTitleColor": "#F87147",
         "title": "Emergency Supplies",
-        "desc": "Support disaster relief efforts by providing emergency food supplies to affected communities. Your donation will help communities in crisis by ensuring they have access to essential food items during challenging times. Disasters can strike unexpectedly, and your generosity can provide a lifeline to those in need. Join us in making a difference when it matters most!",
+        "description": "Support disaster relief efforts by providing emergency food supplies to affected communities. Your donation will help communities in crisis by ensuring they have access to essential food items during challenging times. Disasters can strike unexpectedly, and your generosity can provide a lifeline to those in need. Join us in making a difference when it matters most!",
         "price": 250,
         "img": "https://i.ibb.co/DGSWWZg/Emergency-Supplies.jpg"
       },
@@ -76,7 +76,7 @@
     "catNameBgColor": "#79c23f33",
     "catTitleColor": "#79C23F",
         "title": "Children's Shoes",
-        "desc": "Donate shoes to underprivileged children to help them walk with comfort and confidence. Your contribution will provide durable and comfortable footwear to children in need, ensuring they can participate in daily activities without discomfort. Every step they take will be filled with confidence and hope, thanks to your generosity. Join us in giving the gift of comfortable shoes and brighter futures!",
+        "description": "Donate shoes to underprivileged children to help them walk with comfort and confidence. Your contribution will provide durable and comfortable footwear to children in need, ensuring they can participate in daily activities without discomfort. Every step they take will be filled with confidence and hope, thanks to your generosity. Join us in giving the gift of comfortable shoes and brighter futures!",
         "price": 240,
         "img": "https://i.ibb.co/FXBw13n/Children-shoe.jpg"
       },
@@ -86,7 +86,7 @@
     "catNameBgColor": "#ff444a33",
     "catTitleColor": "#FF444A",
         "title": "Tech for Learning",
-        "desc": "Support remote learning by donating laptops and tablets to students in need. Your donation will bridge the digital divide and empower students to access quality education from anywhere. In today's digital age, access to technology is essential, and your contribution can unlock a world of opportunities for underserved students. Join us in connecting students to the digital future!",
+        "description": "Support remote learning by donating laptops and tablets to students in need. Your donation will bridge the digital divide and empower students to access quality education from anywhere. In today's digital age, access to technology is essential, and your contribution can unlock a world of opportunities for underserved students. Join us in connecting students to the digital future!",
         "price": 250,
         "img": "https://i.ibb.co/0rghNdb/Tech-suppliments.jpg"
       },
@@ -106,7 +106,7 @@
     "catNameBgColor": "#0052ff33",
     "catTitleColor": "#0052FF",
         "title": "Rural Clinics",
-        "desc": "Donate medicine and medical equipment to rural clinics to improve healthcare access. Your contribution will enhance the quality of healthcare in underserved rural areas, ensuring that residents have access to essential medical services. From medications to diagnostic tools, your donation will save lives and improve the well-being of rural communities. Join us in making healthcare accessible to all, regardless of location!",
+        "description": "Donate medicine and medical equipment to rural clinics to improve healthcare access. Your contribution will enhance the quality of healthcare in underserved rural areas, ensuring that residents have access to essential medical services. From medications to diagnostic tools, your donation will save lives and improve the well-being of rural communities. Join us in making healthcare accessible to all, regardless of location!",
         "price": 240,
         "img": "https://i.ibb.co/30txsTH/Rural-clinics.jpg"
       },
