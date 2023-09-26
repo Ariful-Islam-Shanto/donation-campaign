@@ -30,7 +30,7 @@ const DonationCard = ({donation}) => {
         <figure>
           <img src={img} alt="Shoes" className="h-[200px] w-[220px] rounded-lg" />
         </figure>
-        <div className=" ">
+        <div className="space-y-1 ">
           <div className="">
             <button
               style={textAndBgColor}
@@ -40,7 +40,7 @@ const DonationCard = ({donation}) => {
             </button>
           </div>
           <div className="">
-            <h1 style={textColor} className="text-lg font-semibold">
+            <h1  className="text-xl text-black font-bold">
               {title}
             </h1>
           </div>
