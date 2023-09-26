@@ -28,7 +28,7 @@ const DonationCard = ({donation}) => {
         className=" rounded-lg shadow-xl flex gap-5 items-center"
       >
         <figure>
-          <img src={img} alt="Shoes" className="h-[200px] w-[220px] rounded-lg" />
+          <img src={img} alt="image" className="h-[200px] w-[170px] md:w-[220px] rounded-lg" />
         </figure>
         <div className="space-y-1 ">
           <div className="">

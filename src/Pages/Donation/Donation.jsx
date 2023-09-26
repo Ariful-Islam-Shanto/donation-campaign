@@ -27,7 +27,7 @@ const Donation = () => {
         <div className="flex items-center justify-center h-[60vh]" >
             <h1 className="text-4xl text-black font-medium">No Data Found</h1>
             </div> :
-      <div className="lg:px-6 max-w-6xl mx-auto px-4 py-12 grid grid-cols-2 gap-4 items-center justify-center">
+      <div className="px-2 md:px-6 max-w-6xl mx-auto py-4 md:py-12 grid  md:grid-cols-1 lg:grid-cols-2 gap-4 items-center justify-center">
         {!showAll
           ? donations
               .slice(0, 4)

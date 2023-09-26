@@ -82,7 +82,7 @@ const [isDataExist, setIsDataExist] = useState(false);
         {/* {isDataExist === 'No data found' ?
         <div>No data found</div> : */}
         <div>
-      <div className="flex items-center justify-center">
+      <div className="flex w-full  md:w-[full] h-[300px] md:h-[400px] items-center justify-center">
         <PieChart width={400} height={400}>
           <Pie
             data={chartData}
@@ -104,7 +104,7 @@ const [isDataExist, setIsDataExist] = useState(false);
           <Tooltip />
         </PieChart>
       </div>
-      <div className="flex items-center gap-6 justify-center mt-0 pb-12">
+      <div className="flex flex-col md:flex-row items-center gap-6 justify-center -mt-6 md:mt-0 pb-12">
       <div className="flex items-center gap-4 justify-center">
       <h1 className="text-sm text-black font-medium">Total Donation</h1>
         <div

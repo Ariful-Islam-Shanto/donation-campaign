@@ -11,20 +11,20 @@ const Nav = () => {
 
   return (
     <div>
-    <div className={`${isHome ? 'absolute top-0 left-[5%]' : ''} max-w-6xl mx-auto navbar lg:px-6 xl:px-4 py-8 bg-transparent `}>
+    <div className={`${isHome ? 'absolute' : ''} mx-auto flex gap-2 md:gap-0  navbar px-4  md:px-8 lg:px-6 xl:px-44 py-8 bg-transparent `}>
         <div className="flex-1">
-          <img src={Image} alt="" className="w-48" />
+          <img src={Image} alt="" className="w-32 md:w-32 lg:w-48" />
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal px-1 flex gap-10">
+          <ul className="menu menu-horizontal px-1 flex gap-4 md:gap-10 ">
             <NavLink
               to="/"
               className={({ isActive, isPending }) =>
                 isPending
                   ? "pending"
                   : isActive
-                  ? "text-[#FF444A] underline"
-                  : ""
+                  ? "text-[#FF444A]  underline"
+                  : ""  
               }
             >
               Home

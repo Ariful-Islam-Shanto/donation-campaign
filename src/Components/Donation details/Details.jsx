@@ -60,19 +60,19 @@ const Details = () => {
 
   return (
     <div>
-      <div className= "lg:px-6 xl:px-4 max-w-6xl mx-auto py-12">
+      <div className= "px-4 md:px-8 lg:px-6 xl:px-4 max-w-6xl mx-auto py-2 md:py-12">
         <div className="relative">
           <img
             src={img}
             alt=""
-            className=" w-full relative h-[500px] rounded-md"
+            className=" w-full relative h-[300px] md:h-[500px] rounded-md"
           />
-          <div className="bg-black opacity-60 absolute bottom-0 left-0 h-[100px] w-full rounded-md"></div>
+          <div className="bg-black opacity-60 absolute bottom-0 left-0  h-[60px] md:h-[100px] w-full rounded-md"></div>
           <button style={{
             backgroundColor : catTitleColor
           }}
             onClick={handleDonation}
-            className=" absolute bottom-8 left-8 px-5 py-2 text-white rounded-md font-semibold border-none"
+            className=" absolute bottom-[9px] md:bottom-8 left-2 md:left-8 px-5 py-2 text-white rounded-md font-semibold border-none"
           >
             Donate ${price}
           </button>
