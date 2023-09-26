@@ -1,19 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import swal from 'sweetalert';
 
 const Details = () => {
+  const [detailsData, setDetailsData] = useState([]);
   const data = useLoaderData();
   const { id } = useParams();
 
-  const detailData = data.find((details) => details.id === parseInt(id));
+  useEffect(() => {
+    if(!data || data.length === 0) {
+      fetch('/donation.json')
+      .then(res => res.json())
+      .then(data => setDetailsData(data))
+      .catch(error => console.error("Error fetching data:", error));
+    }
+  },[data]);
+
+  const detailData = data.length === 0 ? detailsData.find((details) => details.id === parseInt(id)) :  data.find((details) => details.id === parseInt(id));
 
   const { img, title, description, price, catTitleColor } = detailData;
 
   const handleDonation = () => {
     const allData = [];
     const localStorageData = JSON.parse(localStorage.getItem("donation"));
-
+     
     if (!localStorageData) {
       allData.push(detailData);
       localStorage.setItem("donation", JSON.stringify(allData));
