@@ -29,7 +29,7 @@ const Details = () => {
       localStorage.setItem("donation", JSON.stringify(allData));
       swal({
         title: "Good job!",
-        text: "You clicked the button!",
+        text: "You've successfully donated!",
         icon: "success",
         button: "Aww yiss!",
       });
@@ -43,7 +43,7 @@ const Details = () => {
         localStorage.setItem("donation", JSON.stringify(allData));
         swal({
           title: "Good job!",
-          text: "You successfully donated!",
+          text: "You've successfully donated!",
           icon: "success",
           button: "Aww yess!",
         });

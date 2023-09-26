@@ -79,8 +79,6 @@ const [isDataExist, setIsDataExist] = useState(false);
 
   return (
     <div>
-        {/* {isDataExist === 'No data found' ?
-        <div>No data found</div> : */}
         <div>
       <div className="flex w-full  md:w-[full] h-[300px] md:h-[400px] items-center justify-center">
         <PieChart width={400} height={400}>
