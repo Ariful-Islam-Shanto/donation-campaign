@@ -3,11 +3,17 @@ import DonationCard from "./DonationCard";
 
 const Donation = () => {
   const [donations, setDonations] = useState([]);
+  const [noData, setNoData] = useState('');
   const [showAll, setShowAll] = useState(false);
 
   useEffect(() => {
     const donations = JSON.parse(localStorage.getItem("donation"));
-    setDonations(donations);
+    if(donations) {
+        setDonations(donations);
+    }else{
+        setNoData('No data');
+    }
+    
   }, []);
 
   const handleShowAll = () => {
@@ -16,6 +22,11 @@ const Donation = () => {
 
   return (
     <div>
+        <div>
+        {noData === 'No data' ? 
+        <div className="flex items-center justify-center h-[60vh]" >
+            <h1 className="text-4xl text-black font-medium">No Data Found</h1>
+            </div> :
       <div className="lg:px-6 max-w-6xl mx-auto px-4 py-12 grid grid-cols-2 gap-4 items-center justify-center">
         {!showAll
           ? donations
@@ -33,6 +44,7 @@ const Donation = () => {
               ></DonationCard>
             ))}
       </div>
+       }
       <div className="flex items-center justify-center pb-8">
         {donations.length > 4 ? (
           <button
@@ -44,6 +56,8 @@ const Donation = () => {
         ) : (
           ""
         )}
+      </div>
+
       </div>
     </div>
   );
