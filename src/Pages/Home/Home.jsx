@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <setData.Provider value={handleSearchData}>
       <div>
-        <div className="relative bg lg:h-[50vh] xl:h-[75vh] ">
+        <div className="relative bg lg:h-[80vh] xl:h-[75vh] ">
           <Nav></Nav>
           <Banner></Banner>
         </div>

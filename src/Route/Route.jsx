@@ -5,11 +5,13 @@ import Home from '../Pages/Home/Home';
 import Donation from '../Pages/Donation/Donation';
 import Statistics from '../Pages/Statistics/Statistics';
 import Details from '../Components/Donation details/Details';
+import ErrorPage from '../Components/Error Page/ErrorPage';
 
 const Route = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',

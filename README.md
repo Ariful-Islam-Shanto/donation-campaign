@@ -50,7 +50,7 @@ To test donate to the specific category, follow these steps:
 3. A success notification will appear. If the button gets clicked twice a error message will appear.
 4. The donated category will added into donation route.
 
-## (3) Donation Statistics
+## (4) Donation Statistics
 
 We believe in transparency and want to keep you informed about the impact of your donations. Here are the latest statistics:
 
