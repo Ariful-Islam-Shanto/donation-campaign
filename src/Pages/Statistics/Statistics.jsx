@@ -14,7 +14,6 @@ const [isDataExist, setIsDataExist] = useState(false);
   const Donation = useLoaderData();
 
   
-  console.log(Donation); 
   useEffect(() => {
     const data = JSON.parse(localStorage.getItem('donation'));
     if(!data) {

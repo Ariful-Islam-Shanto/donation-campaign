@@ -1,0 +1,8 @@
+.overlay{
+    background: linear-gradient(rgb(72, 71, 71), rgb(78, 75, 75));
+    background-position: bottom;
+    background-blend-mode: overlay;
+    height: 20vh;
+    width: 100%;
+    
+}
